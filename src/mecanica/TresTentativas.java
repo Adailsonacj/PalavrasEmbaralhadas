@@ -19,7 +19,7 @@ public class TresTentativas implements MecanicaDoJogo {
     }
 
     public String getDescricao() {
-        return "VOCÊ POSSUI TRÊS VIDAS.. <3";
+        return "VOCÊ POSSUI TRÊS VIDAS.. <3 \n OS ESPAÇOS SÃO \"-\", PRESTE BASTANTE ATENÇÃO.";
     }
 
     public boolean jogoAcabou() {

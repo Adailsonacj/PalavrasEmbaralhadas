@@ -32,5 +32,4 @@ public class Principal
 		}
 		System.out.println(mecanica.resultadoFinal());
 	}
-
 }
