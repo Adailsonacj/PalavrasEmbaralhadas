@@ -15,7 +15,7 @@ public class TresTentativas implements MecanicaDoJogo {
     }
 
     public String getNome() {
-        return "Tente a vontade com tres palavras";
+        return "3 Erros...";
     }
 
     public String getDescricao() {
@@ -31,7 +31,7 @@ public class TresTentativas implements MecanicaDoJogo {
     }
 
     public String tentativa(String palavra, String resposta) {
-        if (palavra.equals(resposta)) {
+        if (palavra.toUpperCase().equals(resposta.toUpperCase())) {
             this.pontos += 100;
             this.palavraCorrente = this.banco.getNext();
             ++this.qtdPalavrasAcertadas;

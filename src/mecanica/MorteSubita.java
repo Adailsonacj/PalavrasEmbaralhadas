@@ -30,7 +30,7 @@ public class MorteSubita implements MecanicaDoJogo
     }
 
     public String tentativa(String palavra, String resposta) {
-        if (palavra.equals(resposta)) {
+        if (palavra.toUpperCase().equals(resposta.toUpperCase())) {
             ++this.palavrasCertas;
             this.pontos += 100;
             return "Acertou!!";

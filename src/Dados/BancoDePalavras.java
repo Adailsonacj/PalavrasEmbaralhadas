@@ -7,7 +7,7 @@ import java.util.Random;
 
 public class BancoDePalavras {
 
-    private String[] palavras = {"GATO", "CACHORRO", "PATO", "GAIVOTA", "LEAO", "BALEIA", "ZEBRA", "PEIXE", "TUCANO"};
+   // private String[] palavras = {"GATO", "CACHORRO", "PATO", "GAIVOTA", "LEAO", "BALEIA", "ZEBRA", "PEIXE", "TUCANO"};
 
     /*
         public String getNext()
@@ -35,6 +35,6 @@ public class BancoDePalavras {
         Random ran = new Random();
         numeroSelecionado = ran.nextInt(cidades.size());
 
-        return cidades.get(numeroSelecionado).toString().toUpperCase();
+        return cidades.get(numeroSelecionado).toString();
     }
 }

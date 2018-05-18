@@ -26,7 +26,7 @@ public class Principal
 			Embaralhador emb = FabricaEmbaralhador.getRandom();
 			String embaralhada = emb.embaralhar(palavra);
 			System.out.println("Advinhe a palavra: "+embaralhada);
-			String resposta = s.nextLine().toUpperCase();
+			String resposta = s.nextLine();
 			String resultado = mecanica.tentativa(palavra , resposta);
 			System.out.println(resultado);
 		}
